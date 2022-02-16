@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ee0979, #ff6a00); 
+}
+
+.p1{
+    /* border: 2px solid black; */
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.p2{
+        /* border: 2px solid black; */
+        width: 50%;
+        position: absolute;
+        top: 37%;
+        left: 5%;
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: bold;
+}
+ fieldset{
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    line-height: 1.5rem;
+    border: none;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: white;
+    border-radius: 5px;
+}
+.div1{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+ fieldset label{
+    font-weight: bold;
+}
+ fieldset input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #006838;
+    width: 100%;
+    min-height: 30px;
+}
+.btn-btn-1 button{
+    border: 1px solid #0069D9;
+    background-color: transparent;
+    color: #0069D9;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 125px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btn-btn-1 button:hover{
+    background-color: #0069D9;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.btn-btn-2 button{
+    border: 1px solid #344E86;
+    background-color: transparent;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+.btn-btn-3 button{
+    border: 1px solid red;
+    background-color: transparent;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+.btn-btn-3 button:hover{
+    background-color: red;
+    color: white;
+}
+.btn-btn-2 button:hover{
+    background-color: #344E86;
+    color: white;
+}
+.inp{
+    border: 1px;
+    font-size: small;
+    width: 20px;
+    min-height: 5px;
+}
+/* ------------------sign up----------------- */
+.small-container{
+    position: relative;
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ee0979, #ff6a00); 
+}
+.small-container fieldset{
+    width: 30%;
+    position: absolute;
+    right: 35%;
+    top: 15%;
+    line-height: 1.5rem;
+    border: none;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
